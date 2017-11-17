@@ -1,0 +1,89 @@
+body{
+	background-color: #ff4d4d;
+}
+.qoutediv{
+	background-color: white;
+	margin-top: 80px;
+}
+main{
+	width: 50%;
+	height: 380px;
+	margin: 0 auto;
+	position: relative;
+
+}
+footer{
+	text-align: center;
+	color:white;
+}
+.myfonts{
+	display: flex;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	justify-content: space-between;
+	
+
+}
+i{
+	color:#ff4d4d ;
+}
+button{
+	background-color:#ff4d4d; /* Green */
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 30px;
+	cursor: pointer;
+	border-radius: 8px;
+}
+.mycentraldiv{
+	height: auto;
+}
+.myquote{
+	position: relative;
+	left: 50px;
+	top: 13px;
+}
+.displayquote{
+	text-align: center;
+	font-size: 20px;
+	font-family: "Times New Roman", Georgia, Serif;
+	color:#ff4d4d;
+}
+.displayauthor{
+	text-align: right;
+	color:#ff4d4d;
+	font-size: 23px;
+	max-width: 80%;
+	margin: 0 auto;
+	overflow: auto;
+	padding-top: 25px;
+}
+.fa {
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 20px;
+  cursor: pointer;
+}
+
+	.fa-twitter {
+  background: #ff4d4d;
+  color: white;
+}
+
+#citation {
+	max-width: 80%;
+	margin: 0 auto;
+	overflow: auto;
+	padding-top: 25px;
+}
+.fa-twitter-square:before {
+    flex-wrap: wrap-reverse;
+}
